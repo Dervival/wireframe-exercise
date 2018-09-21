@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+  margin: 15px;
+}
+
+header{
+  background-color: #333333;
+  overflow: auto;
+  margin: 15px;
+}
+
+body *{
+  margin: 15px;
+}
+
+footer{
+  background-color: #333333;
+  margin: 15px;
+}
+
+footer *{
+  margin: 15px;
+}
+
+header *{
+  float: left;
+}
+
+header div{
+  width: 150px;
+}
+
+main section{
+  margin: 7.5px 15px;
+}
+
+main:last-child *{
+  float: left;
+}
+
+#featured{
+  overflow: auto;
+}
+
+#featured *{
+  float: left;
+}
+
+#featured div{
+  width: 400px;
+}
+#featured div *{
+  display: block;
+  padding: 7.5px, 15px
+}
+#featured div h3{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#scrollableContainer{
+  max-height: 275px;
+  overflow: scroll;
+}
+
+#callToAction:hover{
+  transition: all 0.35s linear;
+  background-color:red;
+}
+footer div{
+  height: 100px;
+}
